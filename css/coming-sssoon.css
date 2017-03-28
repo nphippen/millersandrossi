@@ -33,6 +33,12 @@ body{
    opacity: 1;
 }
 /*     General overwrite     */
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
 a{
     color: #2C93FF;
 }
