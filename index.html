@@ -47,41 +47,62 @@
 	</nav>
 	<div class="main" style="background-image: url('images/inside.jpg')">
 
-		<!--    Change the image source '/images/restaurant.jpg')" with your favourite image.     -->
-
 		<div class="cover black" data-color="black"></div>
-
-		<!--   You can change the black color for the filter with those colors: blue, green, red, orange       -->
-
 		<div class="container">
 			<div class="logo">
 				<img src="images/logo.png" alt="Millers and Rossi">
 			</div>
-			<!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
-
 			<div class="content">
 				<div class="motto">
-					<h4>Coming soon...</h4>
+					<h2>NOW OPEN</h2>
+					<label class="viewOpen" for="modal-state">View Hours&nbsp;&nbsp;<i class="fa fa-clock-o"></i></label>
+					<input type="checkbox" name="modal-state" id="modal-state">
+					<div class="modal-overlay">
+						<label for="modal-state" class="modal-overlay-close"></label>
+						<div class="modal">
+							<label class="button-close" for="modal-state"><i class="fa fa-times"></i></label>
+							<h2>We're Open At These Times</h2>
+							<div id="Wednesday" class="dateTime">
+								<div class="day">Wednesday</div>
+								<div class="time">4pm - 12am</div>
+							</div>
+							<br>
+							<div id="Thursday" class="dateTime">
+								<div class="day">Thursday</div>
+								<div class="time">4pm - 12am</div>
+							</div>
+							<br>
+							<div id="Friday" class="dateTime">
+								<div class="day">Friday</div>
+								<div class="time">4pm - 12am</div>
+							</div>
+							<br>
+							<div id="Saturday" class="dateTime">
+								<div class="day">Saturday</div>
+								<div class="time">1pm - 12am</div>
+							</div>
+							<br>
+							<div id="Sunday" class="dateTime">
+								<div class="day">Sunday</div>
+								<div class="time">1pm - 12am</div>
+							</div>
+							<br>
+							<div id="Monday" class="dateTime">
+								<div class="day">Monday</div>
+								<div class="time">Closed</div>
+							</div>
+							<br>
+							<div id="Tuesday" class="dateTime">
+								<div class="day">Tuesday</div>
+								<div class="time">Closed</div>
+							</div>
+						</div>
+					</div>
+				</br></br>
 					<h4>3542 Walnut Street</h4>
 					<h4>Denver, CO 80205</h4></div>
 
-				<!-- <div class="subscribe">
-                <h5 class="info-text">
-                    Join our waiting list. We'll keep you posted.
-                </h5>
-                <div class="row">
-                    <div class="col-md-4 col-md-offset-4 col-sm6-6 col-sm-offset-3 ">
-											<form class="form-inline" role="form" action="mailto:bre@bastamedia.co" method="post" enctype="text/plain">
-                          <div class="form-group">
-                            <label class="sr-only" for="exampleInputEmail2">Email address</label>
-                            <input type="email" class="form-control transparent" placeholder="Your email here...">
-                          </div>
-                          <button type="submit" class="btn btn-warning btn-fill">Notify Me</button>
-                        </form>
 
-                    </div>
-                </div>
-            </div> -->
 			</div>
 		</div>
 		<div class="footer">
